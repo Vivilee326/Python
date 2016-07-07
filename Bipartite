@@ -3,7 +3,6 @@ class graphNode():
         self.label = label
         self.neighbors = []
         
-        
 class Solution:
     def isBipartite(self, node):
         if node is None:
@@ -21,7 +20,6 @@ class Solution:
                     return False
         return True
     
-
 node1 = graphNode(1)
 node2 = graphNode(2)
 node3 = graphNode(3)
